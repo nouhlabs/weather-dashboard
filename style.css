@@ -359,6 +359,28 @@ footer a:hover {
     transform: translateX(-5px);
     color: white;
 }
+/* Mobile fix for back button */
+@media (max-width: 768px) {
+    header {
+        padding-top: 60px; /* Add space for the button */
+        position: relative;
+    }
+    
+    .back-btn {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 0.85rem;
+        padding: 8px 16px;
+        z-index: 1000;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
+
 
 /* Make header relative for absolute positioning */
 header {
