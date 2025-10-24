@@ -337,3 +337,31 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 }
+/* Back to Portfolio Button */
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateX(-5px);
+    color: white;
+}
+
+/* Make header relative for absolute positioning */
+header {
+    position: relative;
+}
+
